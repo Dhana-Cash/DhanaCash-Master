@@ -15,7 +15,7 @@ AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 BITCOIN_DAEMON_NAME=dhanacashd
-BITCOIN_GUI_NAME=dhanacash-qt
+BITCOIN_GUI_NAME=DhanaCash-Qt
 BITCOIN_CLI_NAME=dhanacash-cli
 BITCOIN_TX_NAME=dhanacash-tx
 
