@@ -653,7 +653,7 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/Dacash/DCAS>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/Dhana-Cash>";
     const std::string URL_WEBSITE = "<https://dhana.cash>";
 
     return CopyrightHolders(_("Copyright (C)"), 2014, COPYRIGHT_YEAR) + "\n" +
