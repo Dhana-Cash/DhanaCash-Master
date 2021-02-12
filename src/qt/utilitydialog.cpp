@@ -51,8 +51,8 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, HelpMode helpMode) :
 
     if (helpMode == about)
     {
-        setWindowTitle(tr("About %1").arg(tr(PACKAGE_NAME)));
-
+        //setWindowTitle(tr("About %1").arg(tr(PACKAGE_NAME)));
+        setWindowTitle(tr("About DhanaCash-Qt"));
         /// HTML-format the license message from the core
         QString licenseInfo = QString::fromStdString(LicenseInfo());
         QString licenseInfoHTML = licenseInfo;
